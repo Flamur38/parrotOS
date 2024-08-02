@@ -1,6 +1,6 @@
 ---
 - name: "Install Tmux"
-  apt:
+  package:
     name: tmux
     state: present
   become: true
