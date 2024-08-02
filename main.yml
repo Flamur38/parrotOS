@@ -1,0 +1,7 @@
+---
+- name: "Customizing Parrot"
+  hosts: localhost
+  connection: local
+  roles:
+    - role: "roles/tmux"
+    - role: "roles/terminal"
